@@ -13,8 +13,7 @@ struct Spotify_clon_AApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            SigninView
         }
     }
 }

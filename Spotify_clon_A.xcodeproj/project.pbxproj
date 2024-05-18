@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		FBD0186F2BEFF2BD00D2EB65 /* Spotify_clon_AApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0186E2BEFF2BD00D2EB65 /* Spotify_clon_AApp.swift */; };
-		FBD018712BEFF2BD00D2EB65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD018702BEFF2BD00D2EB65 /* ContentView.swift */; };
 		FBD018732BEFF2BE00D2EB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD018722BEFF2BE00D2EB65 /* Assets.xcassets */; };
 		FBD018762BEFF2BE00D2EB65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD018752BEFF2BE00D2EB65 /* Preview Assets.xcassets */; };
 		FBD018782BEFF2BE00D2EB65 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD018772BEFF2BE00D2EB65 /* Persistence.swift */; };
 		FBD0187B2BEFF2BE00D2EB65 /* Spotify_clon_A.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBD018792BEFF2BE00D2EB65 /* Spotify_clon_A.xcdatamodeld */; };
+		FBD018822BEFF3E000D2EB65 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD018812BEFF3E000D2EB65 /* SigninView.swift */; };
+		FBD018852BEFF98900D2EB65 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD018842BEFF98900D2EB65 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FBD0186B2BEFF2BD00D2EB65 /* Spotify_clon_A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify_clon_A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD0186E2BEFF2BD00D2EB65 /* Spotify_clon_AApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_clon_AApp.swift; sourceTree = "<group>"; };
-		FBD018702BEFF2BD00D2EB65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBD018722BEFF2BE00D2EB65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD018752BEFF2BE00D2EB65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FBD018772BEFF2BE00D2EB65 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FBD0187A2BEFF2BE00D2EB65 /* Spotify_clon_A.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spotify_clon_A.xcdatamodel; sourceTree = "<group>"; };
+		FBD018812BEFF3E000D2EB65 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		FBD018842BEFF98900D2EB65 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 		FBD0186D2BEFF2BD00D2EB65 /* Spotify_clon_A */ = {
 			isa = PBXGroup;
 			children = (
+				FBD018832BEFF96400D2EB65 /* components */,
 				FBD0186E2BEFF2BD00D2EB65 /* Spotify_clon_AApp.swift */,
-				FBD018702BEFF2BD00D2EB65 /* ContentView.swift */,
+				FBD018812BEFF3E000D2EB65 /* SigninView.swift */,
 				FBD018722BEFF2BE00D2EB65 /* Assets.xcassets */,
 				FBD018772BEFF2BE00D2EB65 /* Persistence.swift */,
 				FBD018792BEFF2BE00D2EB65 /* Spotify_clon_A.xcdatamodeld */,
@@ -71,6 +74,14 @@
 				FBD018752BEFF2BE00D2EB65 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBD018832BEFF96400D2EB65 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				FBD018842BEFF98900D2EB65 /* ButtonView.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +156,8 @@
 			files = (
 				FBD0187B2BEFF2BE00D2EB65 /* Spotify_clon_A.xcdatamodeld in Sources */,
 				FBD018782BEFF2BE00D2EB65 /* Persistence.swift in Sources */,
-				FBD018712BEFF2BD00D2EB65 /* ContentView.swift in Sources */,
+				FBD018852BEFF98900D2EB65 /* ButtonView.swift in Sources */,
+				FBD018822BEFF3E000D2EB65 /* SigninView.swift in Sources */,
 				FBD0186F2BEFF2BD00D2EB65 /* Spotify_clon_AApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
