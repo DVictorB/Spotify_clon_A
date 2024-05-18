@@ -13,11 +13,18 @@ struct ButtonView: View {
     var background: Color = .clear
     var color : Color = .white
     var borderColor: Color = .white
+    var image: String = ""
     
     var body: some View {
         Button {
             print("evento tap del boton")
         } label: {
+            if image != "" {
+                Image(image)
+                    .resizable()
+                    .frame(width: 18, height: 18)
+                    .padding(.leading, 15)
+            }
             Spacer()
             Text(title)
                 .foregroundStyle(color)

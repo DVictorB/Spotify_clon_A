@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4055DD2BF9221F007588C7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4055DC2BF9221F007588C7 /* SignUpView.swift */; };
+		FB4055DF2BF926AD007588C7 /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4055DE2BF926AD007588C7 /* BackButtonView.swift */; };
+		FB4055E42BF93277007588C7 /* inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4055E32BF93277007588C7 /* inputs.swift */; };
+		FB4055E62BF93CE4007588C7 /* StepperButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4055E52BF93CE4007588C7 /* StepperButton.swift */; };
 		FBD0186F2BEFF2BD00D2EB65 /* Spotify_clon_AApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0186E2BEFF2BD00D2EB65 /* Spotify_clon_AApp.swift */; };
 		FBD018732BEFF2BE00D2EB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD018722BEFF2BE00D2EB65 /* Assets.xcassets */; };
 		FBD018762BEFF2BE00D2EB65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD018752BEFF2BE00D2EB65 /* Preview Assets.xcassets */; };
 		FBD018782BEFF2BE00D2EB65 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD018772BEFF2BE00D2EB65 /* Persistence.swift */; };
 		FBD0187B2BEFF2BE00D2EB65 /* Spotify_clon_A.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBD018792BEFF2BE00D2EB65 /* Spotify_clon_A.xcdatamodeld */; };
-		FBD018822BEFF3E000D2EB65 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD018812BEFF3E000D2EB65 /* SigninView.swift */; };
+		FBD018822BEFF3E000D2EB65 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD018812BEFF3E000D2EB65 /* SignInView.swift */; };
 		FBD018852BEFF98900D2EB65 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD018842BEFF98900D2EB65 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB4055DC2BF9221F007588C7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FB4055DE2BF926AD007588C7 /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		FB4055E32BF93277007588C7 /* inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputs.swift; sourceTree = "<group>"; };
+		FB4055E52BF93CE4007588C7 /* StepperButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperButton.swift; sourceTree = "<group>"; };
 		FBD0186B2BEFF2BD00D2EB65 /* Spotify_clon_A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify_clon_A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD0186E2BEFF2BD00D2EB65 /* Spotify_clon_AApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_clon_AApp.swift; sourceTree = "<group>"; };
 		FBD018722BEFF2BE00D2EB65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD018752BEFF2BE00D2EB65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FBD018772BEFF2BE00D2EB65 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FBD0187A2BEFF2BE00D2EB65 /* Spotify_clon_A.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spotify_clon_A.xcdatamodel; sourceTree = "<group>"; };
-		FBD018812BEFF3E000D2EB65 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		FBD018812BEFF3E000D2EB65 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		FBD018842BEFF98900D2EB65 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB4055E02BF931E8007588C7 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				FB4055E32BF93277007588C7 /* inputs.swift */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
 		FBD018622BEFF2BD00D2EB65 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +73,11 @@
 		FBD0186D2BEFF2BD00D2EB65 /* Spotify_clon_A */ = {
 			isa = PBXGroup;
 			children = (
-				FBD018832BEFF96400D2EB65 /* components */,
+				FB4055E02BF931E8007588C7 /* mock */,
 				FBD0186E2BEFF2BD00D2EB65 /* Spotify_clon_AApp.swift */,
-				FBD018812BEFF3E000D2EB65 /* SigninView.swift */,
+				FBD018832BEFF96400D2EB65 /* components */,
+				FBD018812BEFF3E000D2EB65 /* SignInView.swift */,
+				FB4055DC2BF9221F007588C7 /* SignUpView.swift */,
 				FBD018722BEFF2BE00D2EB65 /* Assets.xcassets */,
 				FBD018772BEFF2BE00D2EB65 /* Persistence.swift */,
 				FBD018792BEFF2BE00D2EB65 /* Spotify_clon_A.xcdatamodeld */,
@@ -80,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				FBD018842BEFF98900D2EB65 /* ButtonView.swift */,
+				FB4055DE2BF926AD007588C7 /* BackButtonView.swift */,
+				FB4055E52BF93CE4007588C7 /* StepperButton.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -155,9 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD0187B2BEFF2BE00D2EB65 /* Spotify_clon_A.xcdatamodeld in Sources */,
+				FB4055DF2BF926AD007588C7 /* BackButtonView.swift in Sources */,
+				FB4055E42BF93277007588C7 /* inputs.swift in Sources */,
 				FBD018782BEFF2BE00D2EB65 /* Persistence.swift in Sources */,
 				FBD018852BEFF98900D2EB65 /* ButtonView.swift in Sources */,
-				FBD018822BEFF3E000D2EB65 /* SigninView.swift in Sources */,
+				FB4055E62BF93CE4007588C7 /* StepperButton.swift in Sources */,
+				FBD018822BEFF3E000D2EB65 /* SignInView.swift in Sources */,
+				FB4055DD2BF9221F007588C7 /* SignUpView.swift in Sources */,
 				FBD0186F2BEFF2BD00D2EB65 /* Spotify_clon_AApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
